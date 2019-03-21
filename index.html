@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="iOSKeyboardSupport.js"></script>
+    </head>
+    <body>
+        <h1>iOSKeyboardSupport.js</h1>
+        <p>Type into your keyboard to see how to keys are being recognized from your browser with and without mapping.</p>
+
+        <button id="clear">Clear</button>
+        <input class="textfield" type="text">
+        <textarea class="textfield"></textarea>
+
+        <p>iOSKeyboardSupport.js Support Mapping</p>
+        <input type="radio" name="mapping" value="unmapped" checked> Disable<br>
+        <input type="radio" name="mapping" value="mapped"> Enable<br>
+
+        <div class="log keydown"><b>keydown</b></div>
+        <div class="log keypress"><b>keypress</b></div>
+        <div class="log keyup"><b>keyup</b></div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

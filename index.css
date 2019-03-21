@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;   
+}
+
+.textfield {
+    width: 35vw;
+    height: 14pt;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.log {
+    border: 1px solid grey;
+    border-radius: 6px;
+    width: 30vw;
+    height: 63vh;
+    overflow: scroll;
+    white-space: nowrap;
+    margin: 0;
+    padding: 10px 0 0 15px;
+    position: absolute;
+    top: 35vh; 
+    font-family: monospace;
+    font-size: 11px;
+}
+
+.keydown {
+    left: 0;
+}
+
+.keypress {
+    left: calc(30vw + 20px);
+}
+
+.keyup {
+    left: calc((2 * 30vw) + 40px);
+}

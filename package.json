@@ -1,0 +1,21 @@
+{
+  "name": "ioskeyboardsupport-js",
+  "version": "0.1.0",
+  "description": "",
+  "main": "echo \"Error: no main specified\" && exit 1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendriku/iOSKeyboardArrowKeySupport.js.git"
+  },
+  "keywords": [
+    "ios", "ipad", "keyboard", "arrowkeys"
+  ],
+  "author": "Hendrik Ulbrich",
+  "bugs": {
+    "url": "https://github.com/hendriku/iOSKeyboardArrowKeySupport.js/issues"
+  },
+  "homepage": "https://github.com/hendriku/iOSKeyboardArrowKeySupport.js#readme"
+}
