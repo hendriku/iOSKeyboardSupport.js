@@ -1,5 +1,7 @@
 # 🍨 iOSKeyboardSupport.js
 
+## NOTE: APPLE FIXED THIS ISSUE WITH iOS 13.1
+
 Vanilla workaround for the problem that arrow keys from the iPad keyboard aren't recognized in web events.
 
 ## Problem Domain
